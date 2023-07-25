@@ -1,0 +1,7 @@
+.carcas{max-width:1200px;margin:0 auto;}
+.flex-container{display: flex;flex-direction: column;min-height: 100vh;}
+.flex-item{border:1px solid blue;text-align: center;font-size: 40px;text-shadow: 4 2 gray;}
+main{display:flex;flex:1;}
+aside{flex:1;}
+section{flex:3;}
+@media screen and (max-width:650px) {main{flex-direction: column;}section{order:-1;}}
